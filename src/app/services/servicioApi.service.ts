@@ -15,5 +15,8 @@ export class ServicioApiService {
   ObtenerPokemons(){
     return this.http.get('https://pokeapi.co/api/v2/pokemon/ditto');
   }
+  ObtenerPokemon(){
+    return this.http.get('https://pokeapi.co/api/v2/pokemon/ditto');
+  }
 
 }
